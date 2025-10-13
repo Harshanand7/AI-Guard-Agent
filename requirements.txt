@@ -1,0 +1,20 @@
+Step 1:- Open powershell and type the following command to create venv
+	py -3.11 -m venv myvenv
+	
+Step 2:- To activate it type 
+	myvenv\Scripts\activate
+Step 3:- Install the following dependencies
+	pip install opencv-python face_recognition SpeechRecognition pyaudio pyttsx3 google-generativeai
+Step 4: Also install 
+	pip install groq
+
+CREATE YOUR OWN API KEY FROM THE FOLLWOING WEBSITE 
+https://console.groq.com/
+
+ Step 6: IN the terminal type the following to activate API_KEY. You have to type the following command in each session. 
+	$env:GROQ_API_KEY="gsk_...your...new...key...from...groq"
+ 
+Step 7: Now run the main function
+pip install vosk sounddevice
+
+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
