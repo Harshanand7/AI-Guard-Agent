@@ -117,18 +117,19 @@ Once the setup is complete, you can run the application.
 
 ## 📂 Project Structure
 
-Here is an overview of the project's file structure and the role of each component.
-AI-Guard/
-├── data/
-│   └── faces/
-│       └── YourName/         # Folder for enrolling trusted user images
-│           ├── image1.jpg
-│           └── ...
-├── myvenv/                   # Virtual environment folder
-├── agent.py                  # The AI brain: manages state, logic, and LLM calls via Groq.
-├── asr.py                    # Handles general-purpose Automatic Speech Recognition for commands.
-├── keyword_spotter.py        # Uses Vosk for offline, real-time keyword detection (e.g., "stop").
-├── main.py                   # The main application entry point that integrates all modules.
-├── requirements.txt          # A list of all Python dependencies for easy installation.
-├── tts.py                    # A simple script for Text-to-Speech synthesis.
-└── vision.py                 # Manages the camera feed and facial recognition logic.
+Here is an overview of the project's file structure and the role of each component.  
+AI-Guard/<br>
+├── data/<br>
+│&nbsp;&nbsp;&nbsp;└── faces/<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── YourName/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Folder for enrolling trusted user images<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── image1.jpg<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...<br>
+├── myvenv/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Virtual environment folder<br>
+├── agent.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# The AI brain: manages state, logic, and LLM calls via Groq.<br>
+├── asr.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Handles general-purpose Automatic Speech Recognition for commands.<br>
+├── keyword_spotter.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Uses Vosk for offline, real-time keyword detection (e.g., "stop").<br>
+├── main.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# The main application entry point that integrates all modules.<br>
+├── requirements.txt &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# A list of all Python dependencies for easy installation.<br>
+├── tts.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# A simple script for Text-to-Speech synthesis.<br>
+└── vision.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Manages the camera feed and facial recognition logic.<br>
+
