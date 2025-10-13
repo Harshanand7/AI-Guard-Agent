@@ -8,7 +8,7 @@ Step 3:- Install the following dependencies
 Step 4: Also install 
 	pip install groq
 
-CREATE YOUR OWN API KEY FROM THE FOLLWOING WEBSITE 
+CREATE YOUR OWN API KEY FROM THE FOLLOWOING WEBSITE 
 https://console.groq.com/
 
  Step 6: IN the terminal type the following to activate API_KEY. You have to type the following command in each session. 
@@ -17,4 +17,3 @@ https://console.groq.com/
 Step 7: Now run the main function
 pip install vosk sounddevice
 
-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
