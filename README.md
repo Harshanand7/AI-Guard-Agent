@@ -118,3 +118,17 @@ Once the setup is complete, you can run the application.
 ## 📂 Project Structure
 
 Here is an overview of the project's file structure and the role of each component.
+AI-Guard/
+├── data/
+│   └── faces/
+│       └── YourName/         # Folder for enrolling trusted user images
+│           ├── image1.jpg
+│           └── ...
+├── myvenv/                   # Virtual environment folder
+├── agent.py                  # The AI brain: manages state, logic, and LLM calls via Groq.
+├── asr.py                    # Handles general-purpose Automatic Speech Recognition for commands.
+├── keyword_spotter.py        # Uses Vosk for offline, real-time keyword detection (e.g., "stop").
+├── main.py                   # The main application entry point that integrates all modules.
+├── requirements.txt          # A list of all Python dependencies for easy installation.
+├── tts.py                    # A simple script for Text-to-Speech synthesis.
+└── vision.py                 # Manages the camera feed and facial recognition logic.
