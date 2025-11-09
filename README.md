@@ -8,13 +8,13 @@ An intelligent, voice-activated security agent that uses facial recognition and 
 
 ---
 
-## 📖 About The Project
+## About The Project
 
 AI Guard is a Python-based application that turns your computer's webcam and microphone into an autonomous monitoring system. The system remains idle until activated by a voice command. Once in "Guard Mode," it uses real-time facial recognition to distinguish between pre-enrolled, trusted users and unknown individuals.
 
 When an unknown person is detected, the system's core AI agent, powered by the fast **Groq Llama 3.1 LLM**, initiates a conversation. The agent's response strategy dynamically escalates from a polite greeting to a firm warning if the individual remains in the area without authorization. The system can be deactivated at any time by a trusted user with a simple voice command.
 
-### ✨ Key Features
+### Key Features
 
 * **Facial Recognition**: Enrolls and recognizes known users, and identifies unknown individuals.
 * **Voice Activation**: Hands-free activation and deactivation using voice commands ("activate guard", "stop").
@@ -25,7 +25,7 @@ When an unknown person is detected, the system's core AI agent, powered by the f
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 Follow these instructions to set up and run the project on your local machine.
 
@@ -35,7 +35,7 @@ Follow these instructions to set up and run the project on your local machine.
 * A webcam connected to your computer
 * A microphone connected to your computer
 
-### ⚙️ Installation & Setup
+### Installation & Setup
 
 1.  **Clone the Repository**
     ```bash
@@ -86,7 +86,7 @@ Follow these instructions to set up and run the project on your local machine.
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Once the setup is complete, you can run the application.
 
@@ -103,7 +103,7 @@ Once the setup is complete, you can run the application.
 ---
 ---
 
-## 💻 Technologies Used
+## Technologies Used
 
 * **Python 3**
 * **Groq API**: For fast LLM (Llama 3.1) inference.
@@ -115,7 +115,7 @@ Once the setup is complete, you can run the application.
 * **Sounddevice**: For audio input streaming.
 
 
-## 📂 Project Structure
+## Project Structure
 
 Here is an overview of the project's file structure and the role of each component.  
 AI-Guard/<br>
